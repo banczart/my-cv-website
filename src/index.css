@@ -1,0 +1,170 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 0 0% 98%;
+    --foreground: 220 13% 13%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 220 13% 13%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 13% 13%;
+
+    --primary: 217 91% 40%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 220 13% 13%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 220 9% 46%;
+
+    --accent: 217 91% 40%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 217 91% 40%;
+
+    --radius: 0.5rem;
+
+    /* CV-specific colors */
+    --cv-blue: 217 91% 40%;
+    --cv-red: 0 84% 60%;
+    --cv-orange: 28 92% 58%;
+    --cv-yellow: 48 100% 67%;
+    --cv-green: 142 71% 45%;
+    --cv-cyan: 195 89% 53%;
+    --cv-purple: 271 81% 56%;
+    --cv-pink: 330 81% 60%;
+    --cv-text-dark: 220 13% 13%;
+    --cv-text-light: 220 9% 46%;
+  }
+
+  .dark {
+    --background: 220 13% 13%;
+    --foreground: 0 0% 98%;
+
+    --card: 220 13% 18%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 220 13% 18%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 217 91% 40%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 217 32.6% 17.5%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 217 32.6% 17.5%;
+    --muted-foreground: 220 9% 65%;
+
+    --accent: 217 91% 40%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 217 32.6% 17.5%;
+    --input: 217 32.6% 17.5%;
+    --ring: 217 91% 40%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* A4 Format Styles */
+@media screen {
+  body {
+    background: #f5f5f5;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+  
+  .a4-container {
+    width: 210mm;
+    min-height: 297mm;
+    margin: 20px auto;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 0;
+    position: relative;
+  }
+  
+  .a4-page {
+    width: 100%;
+    min-height: 297mm;
+    background: white;
+    position: relative;
+    overflow: hidden;
+  }
+}
+
+@media print {
+  body {
+    background: white;
+  }
+  
+  .a4-container {
+    width: 210mm;
+    min-height: 297mm;
+    margin: 0;
+    box-shadow: none;
+    padding: 0;
+  }
+  
+  .a4-page {
+    width: 210mm;
+    height: 297mm;
+    page-break-after: always;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .a4-page:last-child {
+    page-break-after: avoid;
+  }
+}
+
+/* Section Title Underlines */
+.section-title-underline {
+  position: relative;
+}
+
+.section-title-underline::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  right: -1.5rem;
+  height: 2px;
+  background: hsl(var(--cv-blue));
+}
+
+/* Custom 11px font size */
+.text-11px {
+  font-size: 11px;
+}
+
+/* Custom 12.8px font size */
+.text-12-8px {
+  font-size: 12.8px;
+}

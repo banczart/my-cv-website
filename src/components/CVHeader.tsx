@@ -35,7 +35,7 @@ export const CVHeader = () => {
               </div>
               <div className="flex items-center gap-2 text-muted-foreground">
                 <Globe className="w-4 h-4" />
-                <a href="https://xyz.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">xyz.com</a>
+                <a href="https://cvbanczyk.pl/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">cvbanczyk.pl</a>
               </div>
             </div>
           </div>

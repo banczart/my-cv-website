@@ -1,7 +1,7 @@
 import { LineChart } from "lucide-react";
 
 export const CareerTimeline = () => {
-  const years = Array.from({ length: 10 }, (_, i) => 2006 + (i * 2));
+  const years = Array.from({ length: 10 }, (_, i) => 2007 + (i * 2));
   
   const calculateTotal = (periods: { duration: number }[]) => {
     const totalMonths = periods.reduce((sum, period) => sum + period.duration, 0);
@@ -22,7 +22,7 @@ export const CareerTimeline = () => {
       label: "Product Ownership", 
       color: "bg-[hsl(var(--cv-orange))]",
       periods: [
-        { start: 2015, duration: 120, label: "10y" }
+        { start: 2015, duration: 123, label: "10y 3m" }
       ]
     },
     { 
@@ -57,7 +57,7 @@ export const CareerTimeline = () => {
       label: "Software Development", 
       color: "bg-[hsl(var(--cv-yellow))]",
       periods: [
-        { start: 2015, duration: 124, label: "10y 4m" }
+        { start: 2015, duration: 123, label: "10y 3m" }
       ]
     }
   ];

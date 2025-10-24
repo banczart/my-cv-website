@@ -5,10 +5,11 @@ export const ProfessionalSummary = () => {
   const highlights = [
     "**Engineering Manager** with experience leading teams ranging from small units to groups of up to **70 engineers**.",
     "**Product Owner** guiding cross-functional teams to deliver customer-focused solutions aligned with strategic goals.",
-    "**Engineer** with **20 years** of commercial experience in **Software Development**, **Testing**, and **DevOps**",
+    "**Engineer** with **20 years** of commercial experience in **Leading SW Development**, **Testing**, and **DevOps**",
     "**Test Manager** driving agile teams to deliver **scalable UI & API** test solutions with strong **quality ownership**.",
-    "**Project Manager** cultivating **empowerment** and a **blame-free culture**, building **high-performing** agile teams.",
-    "**Code Quality Advocate** fostering **design principles**, **clean code**, and **mentorship**",
+    "**Project Manager** fostering **empowerment** and **blame-free culture**, enabling **high-performing Agile teams**.",
+    "**AI Enthusiast** exploring **practical applications** of **artificial intelligence** in **software development**.",
+    "**Clean Code Evangelist** fostering **design principles**, **clean code**, and **mentorship**",
   ];
 
   return (

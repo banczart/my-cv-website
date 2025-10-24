@@ -102,11 +102,12 @@ All colors MUST be HSL.
   .a4-container {
     width: 210mm;
     min-height: 297mm;
-    margin: 20px auto;
+    margin: 10px auto;
     background: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 0;
     position: relative;
+    border: 2px solid hsl(var(--border));
   }
   
   .a4-page {
@@ -114,11 +115,30 @@ All colors MUST be HSL.
     min-height: 297mm;
     background: white;
     position: relative;
-    overflow: hidden;
+    overflow: visible;
+    padding: 10mm 15mm 15mm 15mm;
+    box-sizing: border-box;
+  }
+
+  /* Arrow positioning on left border */
+  .arrow-left-border {
+    position: absolute;
+    left: -45px;
+    width: 35px;
+    height: 35px;
+    z-index: 10;
   }
 }
 
 @media print {
+  @page {
+    margin: 10mm 0;
+  }
+
+  @page :first {
+    margin: 0;
+  }
+
   body {
     background: white;
   }
@@ -129,6 +149,7 @@ All colors MUST be HSL.
     margin: 0;
     box-shadow: none;
     padding: 0;
+    border: none;
   }
   
   .a4-page {
@@ -136,11 +157,55 @@ All colors MUST be HSL.
     height: 297mm;
     page-break-after: always;
     margin: 0;
-    padding: 0;
+    padding: 10mm 15mm 15mm 15mm;
+    box-sizing: border-box;
+  }
+
+  /* Increase top/bottom margins for pages after the first */
+  .a4-page:not(:first-child) {
+    padding: 20mm 15mm 20mm 15mm;
   }
   
   .a4-page:last-child {
     page-break-after: avoid;
+  }
+
+  .arrow-left-border {
+    position: absolute;
+    left: -40px;
+    width: 35px;
+    height: 35px;
+    overflow: hidden;
+    z-index: 10;
+  }
+
+  /* Ensure section icons are visible in print */
+  .bg-primary,
+  .bg-gray-100 {
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+
+  /* Force all background colors to print */
+  * {
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+
+  /* Ensure work experience achievements print in two columns */
+  ul.grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+
+  /* Prevent page breaks in skill sections - keep headers with content */
+  .space-y-6 > div {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  .space-y-6 h3 {
+    page-break-after: avoid;
+    break-after: avoid;
   }
 }
 
@@ -162,6 +227,11 @@ All colors MUST be HSL.
 /* Custom 11px font size */
 .text-11px {
   font-size: 11px;
+}
+
+/* Custom 12px font size */
+.text-12px {
+  font-size: 12px;
 }
 
 /* Custom 12.8px font size */

@@ -5,13 +5,14 @@ export const ProfessionalSummary = () => {
   const highlights = [
     "**Engineering Manager** with experience leading teams ranging from small units to groups of up to **70 engineers**.",
     "**Product Owner** guiding cross-functional teams to deliver customer-focused solutions aligned with strategic goals.",
-    "**Engineer** with 20 years of commercial experience in **Software Development**, **Testing**, and **DevOps**",
-    "**Project Manager** cultivating **empowerment** and a **blame-free culture**, building resilient, **high-performing** agile teams.",
+    "**Engineer** with **20 years** of commercial experience in **Software Development**, **Testing**, and **DevOps**",
+    "**Test Manager** driving agile teams to deliver **scalable UI & API** test solutions with strong **quality ownership**.",
+    "**Project Manager** cultivating **empowerment** and a **blame-free culture**, building **high-performing** agile teams.",
     "**Code Quality Advocate** fostering **design principles**, **clean code**, and **mentorship**",
   ];
 
   return (
-    <section className="max-w-5xl mx-auto px-6 py-4">
+    <section className="py-3">
       <div className="flex items-center gap-3 mb-6">
         <div className="w-6 h-6 bg-primary flex items-center justify-center rounded">
           <Star className="w-3.5 h-3.5 text-white fill-white" />
@@ -21,12 +22,12 @@ export const ProfessionalSummary = () => {
         </h2>
       </div>
       
-      <ul className="space-y-1 text-12-8px">
+      <ul className="space-y-1 text-12-8px" style={{ fontFamily: "'Nunito Sans', sans-serif", fontVariationSettings: '"wdth" 85, "YTLC" 540', paddingLeft: '8px' }}>
         {highlights.map((highlight, index) => {
           const parts = highlight.split(/(\*\*.*?\*\*)/g);
           return (
-            <li key={index} className="flex items-center gap-3 text-muted-foreground">
-              <span className="text-foreground">•</span>
+            <li key={index} className="flex items-start text-muted-foreground">
+              <span className="text-foreground mr-3">•</span>
               <span className="flex-1">
                 {parts.map((part, i) => {
                   if (part.startsWith('**') && part.endsWith('**')) {

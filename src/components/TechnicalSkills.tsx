@@ -7,7 +7,7 @@ export const TechnicalSkills = () => {
         {[...Array(5)].map((_, i) => (
           <Star
             key={i}
-            className={`w-4 h-4 ${
+            className={`w-3 h-3 ${
               i < count ? 'fill-primary text-primary' : 'text-muted-foreground stroke-2'
             }`}
             fill={i < count ? undefined : "none"}
@@ -33,8 +33,7 @@ export const TechnicalSkills = () => {
     "Basic (TypeScript, JavaScript, C#, C++)", "Build tools (Maven, Gradle)", "AI Tools (GitHub Copilot, claude.ai, ChatGPT)", "Frameworks (Angular, React)", "Front-end (AngularJS, Bootstrap, jQuery, CSS3, GoJS)", "Back-end (Apache Tomcat, Apache CXF)", "Security (Veracode)", "Authentication (Keycloak)", "Development environment (IntelliJ, VS Code, Eclipse, Android Studio, Xcode)", "Mobile Application Publishing (Android, Apple stores)"
   ];
   const additionalTools = [
-    "Git", "GitHub Actions", "Azure DevOps", "AWS", "Terraform",
-    "Ansible", "Selenium", "Jest", "React", "Node.js"
+    "Git", "GitHub Actions", "Azure DevOps", "AWS", "Terraform", "Nexus", "Node.js"
   ];
 
   const methodologies = [
@@ -82,7 +81,7 @@ export const TechnicalSkills = () => {
   ];
 
   return (
-    <section className="max-w-5xl mx-auto px-6 py-4">
+    <section className="py-3">
       <div className="flex items-center gap-3 mb-6">
         <div className="w-6 h-6 bg-primary flex items-center justify-center rounded">
           <div className="w-3 h-3">
@@ -99,11 +98,11 @@ export const TechnicalSkills = () => {
 
       <div className="space-y-6">
         <div>
-          <h3 className="font-bold text-foreground mb-4 text-12-8px">Methodologies</h3>
+          <h3 className="font-bold text-foreground mb-4 text-12px">Methodologies</h3>
           <div className="grid grid-cols-3 gap-8 mb-4">
             {methodologies.map((methodology, index) => (
               <div key={methodology.name} className="flex items-center justify-between relative px-2">
-                <div className="font-medium text-foreground text-12-8px">{methodology.name}</div>
+                <div className="font-medium text-foreground text-12px">{methodology.name}</div>
                 {renderStars(methodology.rating)}
                 {index < methodologies.length - 1 && (
                   <div className="absolute right-[-16px] top-1/2 transform -translate-y-1/2 w-px h-6 bg-border"></div>
@@ -111,18 +110,18 @@ export const TechnicalSkills = () => {
               </div>
             ))}
           </div>
-          <div className="text-xs text-muted-foreground">
+          <div className="text-11px text-muted-foreground">
             <span className="font-medium"> </span>
             {additionalMethodologies.join(", ")}
           </div>
         </div>
 
         <div>
-          <h3 className="font-bold text-foreground mb-4 text-12-8px">Cloud & Integrations</h3>
+          <h3 className="font-bold text-foreground mb-4 text-12px">Cloud & Integrations</h3>
           <div className="grid grid-cols-3 gap-8 mb-4">
             {CloudAndIntegrations.map((item, index) => (
               <div key={item.name} className="flex items-center justify-between relative px-2">
-                <div className="font-medium text-foreground text-12-8px">{item.name}</div>
+                <div className="font-medium text-foreground text-12px">{item.name}</div>
                 {renderStars(item.rating)}
                 {index < CloudAndIntegrations.length - 1 && (
                   <div className="absolute right-[-16px] top-1/2 transform -translate-y-1/2 w-px h-6 bg-border"></div>
@@ -130,18 +129,18 @@ export const TechnicalSkills = () => {
               </div>
             ))}
           </div>
-          <div className="text-xs text-muted-foreground">
+          <div className="text-11px text-muted-foreground">
             <span className="font-medium">Also: </span>
             {additionalCloudAndIntegrations.join(", ")}
           </div>
         </div>
 
         <div>
-          <h3 className="font-bold text-foreground mb-4 text-12-8px">DevOps</h3>
+          <h3 className="font-bold text-foreground mb-4 text-12px">DevOps</h3>
           <div className="grid grid-cols-3 gap-8 mb-4">
             {DevOps.map((item, index) => (
               <div key={item.name} className="flex items-center justify-between relative px-2">
-                <div className="font-medium text-foreground text-12-8px">{item.name}</div>
+                <div className="font-medium text-foreground text-12px">{item.name}</div>
                 {renderStars(item.rating)}
                 {index < DevOps.length - 1 && (
                   <div className="absolute right-[-16px] top-1/2 transform -translate-y-1/2 w-px h-6 bg-border"></div>
@@ -149,18 +148,18 @@ export const TechnicalSkills = () => {
               </div>
             ))}
           </div>
-          <div className="text-xs text-muted-foreground">
+          <div className="text-11px text-muted-foreground">
             <span className="font-medium"> </span>
             {additionalDevOps.join(", ")}
           </div>
         </div>
 
         <div>
-          <h3 className="font-bold text-foreground mb-4 text-12-8px">Testing</h3>
+          <h3 className="font-bold text-foreground mb-4 text-12px">Testing</h3>
           <div className="grid grid-cols-3 gap-8 mb-4">
             {TestingAndAutomation.map((item, index) => (
               <div key={item.name} className="flex items-center justify-between relative px-2">
-                <div className="font-medium text-foreground text-12-8px">{item.name}</div>
+                <div className="font-medium text-foreground text-12px">{item.name}</div>
                 {renderStars(item.rating)}
                 {index < TestingAndAutomation.length - 1 && (
                   <div className="absolute right-[-16px] top-1/2 transform -translate-y-1/2 w-px h-6 bg-border"></div>
@@ -168,18 +167,18 @@ export const TechnicalSkills = () => {
               </div>
             ))}
           </div>
-          <div className="text-xs text-muted-foreground">
+          <div className="text-11px text-muted-foreground">
             <span className="font-medium"> </span>
             {additionalTestingAndAutomation.join(", ")}
           </div>
         </div>
 
         <div>
-          <h3 className="font-bold text-foreground mb-4 text-12-8px">Project Management Tools</h3>
+          <h3 className="font-bold text-foreground mb-4 text-12px">Project Management Tools</h3>
           <div className="grid grid-cols-3 gap-8 mb-4">
             {ProjectManagementTools.map((item, index) => (
               <div key={item.name} className="flex items-center justify-between relative px-2">
-                <div className="font-medium text-foreground text-12-8px">{item.name}</div>
+                <div className="font-medium text-foreground text-12px">{item.name}</div>
                 {renderStars(item.rating)}
                 {index < ProjectManagementTools.length - 1 && (
                   <div className="absolute right-[-16px] top-1/2 transform -translate-y-1/2 w-px h-6 bg-border"></div>
@@ -187,18 +186,18 @@ export const TechnicalSkills = () => {
               </div>
             ))}
           </div>
-          <div className="text-xs text-muted-foreground">
+          <div className="text-11px text-muted-foreground">
             <span className="font-medium">Also: </span>
             {additionalProjectManagementTools.join(", ")}
           </div>
         </div>
 
         <div>
-          <h3 className="font-bold text-foreground mb-4 text-12-8px">Coding</h3>
+          <h3 className="font-bold text-foreground mb-4 text-12px">Coding</h3>
           <div className="grid grid-cols-3 gap-8 mb-4">
             {programmingLanguages.map((lang, index) => (
               <div key={lang.name} className="flex items-center justify-between relative px-2">
-                <div className="font-medium text-foreground text-12-8px">{lang.name}</div>
+                <div className="font-medium text-foreground text-12px">{lang.name}</div>
                 {renderStars(lang.rating)}
                 {index < programmingLanguages.length - 1 && (
                   <div className="absolute right-[-16px] top-1/2 transform -translate-y-1/2 w-px h-6 bg-border"></div>
@@ -206,18 +205,18 @@ export const TechnicalSkills = () => {
               </div>
             ))}
           </div>
-          <div className="text-xs text-muted-foreground">
+          <div className="text-11px text-muted-foreground">
             <span className="font-medium"> </span>
             {additionalLanguages.join(", ")}
           </div>
         </div>
 
         <div>
-          <h3 className="font-bold text-foreground mb-4 text-12-8px">Tools</h3>
+          <h3 className="font-bold text-foreground mb-4 text-12px">Tools</h3>
           <div className="grid grid-cols-3 gap-8 mb-4">
             {tools.map((tool, index) => (
               <div key={tool.name} className="flex items-center justify-between relative px-2">
-                <div className="font-medium text-foreground text-12-8px">{tool.name}</div>
+                <div className="font-medium text-foreground text-12px">{tool.name}</div>
                 {renderStars(tool.rating)}
                 {index < tools.length - 1 && (
                   <div className="absolute right-[-16px] top-1/2 transform -translate-y-1/2 w-px h-6 bg-border"></div>
@@ -225,7 +224,7 @@ export const TechnicalSkills = () => {
               </div>
             ))}
           </div>
-          <div className="text-xs text-muted-foreground">
+          <div className="text-11px text-muted-foreground">
             <span className="font-medium">Also: </span>
             {additionalTools.join(", ")}
           </div>

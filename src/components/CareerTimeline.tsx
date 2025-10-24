@@ -22,7 +22,7 @@ export const CareerTimeline = () => {
       label: "Product Ownership", 
       color: "bg-[hsl(var(--cv-orange))]",
       periods: [
-        { start: 2008, duration: 210, label: "17y 6m" }
+        { start: 2015, duration: 120, label: "10y" }
       ]
     },
     { 
@@ -36,42 +36,34 @@ export const CareerTimeline = () => {
       label: "Project Management", 
       color: "bg-[hsl(var(--cv-cyan))]",
       periods: [
-        { start: 2014, duration: 124, label: "10y 4m" },
-        { start: 2012, duration: 24, label: "2y" },
-        { start: 2011, duration: 10, label: "10m" }
+        { start: 2011, duration: 47, label: "3y 11m" }
       ]
     },
     { 
       label: "Test Management", 
       color: "bg-[hsl(var(--cv-purple))]",
       periods: [
-        { start: 2018, duration: 79, label: "6y 7m" },
-        { start: 2015, duration: 36, label: "3y" },
-        { start: 2013, duration: 14, label: "1y 2m" }
+        { start: 2008, duration: 209, label: "17y 5m" }
       ]
     },
     { 
       label: "DevOps", 
       color: "bg-[hsl(var(--cv-pink))]",
       periods: [
-        { start: 2019, duration: 78, label: "6y 6m" },
-        { start: 2013, duration: 64, label: "5y 4m" },
-        { start: 2012, duration: 14, label: "1y 2m" }
+        { start: 2008, duration: 206, label: "17y 2m" }
       ]
     },
     { 
       label: "Software Development", 
       color: "bg-[hsl(var(--cv-yellow))]",
       periods: [
-        { start: 2019, duration: 78, label: "6y 6m" },
-        { start: 2013, duration: 64, label: "5y 4m" },
-        { start: 2012, duration: 14, label: "1y 2m" }
+        { start: 2015, duration: 124, label: "10y 4m" }
       ]
     }
   ];
 
   return (
-    <section className="max-w-5xl mx-auto px-6 py-4">
+    <section className="py-3">
       <div className="flex items-center gap-3 mb-6">
         <div className="w-6 h-6 bg-primary flex items-center justify-center rounded">
           <LineChart className="w-3.5 h-3.5 text-white" />

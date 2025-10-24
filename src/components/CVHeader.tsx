@@ -2,17 +2,22 @@ import { Phone, Mail, Linkedin, Globe } from "lucide-react";
 
 export const CVHeader = () => {
   return (
-    <header className="bg-card">
-      <div className="max-w-5xl mx-auto px-6 py-6">
+    <header className="bg-card">      
+      <div className="mx-auto p-2">
         <div className="flex items-start justify-between gap-8">
           <div className="flex-1">
-            <div className="flex items-center gap-3 mb-2">
-              <div className="w-8 h-8 bg-primary flex items-center justify-center">
-                <div className="w-0 h-0 border-l-[12px] border-l-transparent border-r-[12px] border-r-transparent border-b-[16px] border-b-white transform rotate-90" />
+            <div className="mb-2 relative">
+              {/* Arrow on left border inline with name */}
+              <div className="arrow-left-border" style={{ top: '50%', transform: 'translateY(-50%)' }}>
+                <img 
+                  src="/media/arrow-right.svg" 
+                  alt="Arrow icon" 
+                  className="w-full h-full"
+                />
               </div>
               <h1 className="text-4xl font-bold text-foreground">ARTUR BANCZYK</h1>
             </div>
-            <p className="text-lg font-medium text-primary mb-4">
+            <p className="text-base font-medium text-primary mb-4">
               PRODUCT OWNER  •  ENGINEERING MANAGER  •  TEST MANAGER
             </p>
             

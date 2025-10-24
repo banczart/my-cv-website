@@ -211,7 +211,7 @@ export const WorkExperience = () => {
     },,
   {
       title: "Senior Project Manager",
-      subtitle: "Engineering Manager, Release Manager, Scrum Master",
+      subtitle: "Release Manager, Scrum Master",
       company: "Tieto",
       companyLogo: "/logos/tieto.png",
       period: "December 2013 - September 2015",

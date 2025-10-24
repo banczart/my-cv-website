@@ -179,6 +179,31 @@ All colors MUST be HSL.
   body {
     background: white;
   }
+
+  /* Ensure header stays in row layout for print */
+  header .flex {
+    flex-direction: row !important;
+  }
+
+  /* Reset text sizes for print */
+  h1 {
+    font-size: 2.25rem !important;
+  }
+
+  header p {
+    font-size: 1rem !important;
+  }
+
+  header .grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    font-size: 0.875rem !important;
+  }
+
+  /* Ensure photo is correct size in print */
+  header > div > div > div:last-child {
+    width: 8rem !important;
+    height: 8rem !important;
+  }
   
   .a4-container {
     width: 210mm;

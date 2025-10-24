@@ -24,16 +24,16 @@ export const TechnicalSkills = () => {
   ];
 
   const tools = [
-    { name: "Docker", rating: 5 },
-    { name: "Kubernetes", rating: 4 },
-    { name: "Jenkins", rating: 4 },
+    { name: "Oracle", rating: 5 },
+    { name: "PostgreSQL", rating: 3 },
+    { name: "MySQL", rating: 3 },
   ];
 
   const additionalLanguages = [
-    "Basic (TypeScript, JavaScript, C#, C++)", "Build tools (Maven, Gradle)", "AI Tools (GitHub Copilot, claude.ai, ChatGPT)", "Frameworks (Angular, React)", "Front-end (AngularJS, Bootstrap, jQuery, CSS3, GoJS)", "Back-end (Apache Tomcat, Apache CXF)", "Security (Veracode)", "Authentication (Keycloak)", "Development environment (IntelliJ, VS Code, Eclipse, Android Studio, Xcode)", "Mobile Application Publishing (Android, Apple stores)"
+    "Basic (TypeScript, JavaScript, C#, C++)", "Build tools (Maven, Gradle)", "AI Tools (GitHub Copilot, claude.ai, ChatGPT)", "Frameworks (Angular, React)", "Front-end (AngularJS, Bootstrap, jQuery, CSS3, GoJS)", "Back-end (Apache Tomcat, Apache CXF)", "Security (Veracode)", "Authentication (Keycloak)", "Development environment (IntelliJ, VS Code, Eclipse, Android Studio, Xcode(MacOS))", "Mobile Application Publishing (Android, Apple stores)"
   ];
   const additionalTools = [
-    "Git", "GitHub Actions", "Azure DevOps", "AWS", "Terraform", "Nexus", "Node.js"
+    "MariaDB"
   ];
 
   const methodologies = [
@@ -59,7 +59,7 @@ export const TechnicalSkills = () => {
     { name: "Deployment", rating: 4 },
   ];
   const additionalDevOps = [
-    "Jenkins", "GitHub Actions", "Azure DevOps", "Docker", "Docker Hub", "Rancher Desktop", "Windows", "Linux", "MacOS", "CI/CD pipelines", "Kubernetes (K8s)", "AWS", "Azure"
+    "Jenkins", "AWS", "Azure", "GitHub Actions", "Azure DevOps", "Docker", "Docker Hub", "Rancher Desktop", "Windows", "Linux", "MacOS", "CI/CD pipelines", "Kubernetes (K8s)"
   ];
 
   const TestingAndAutomation = [
@@ -68,7 +68,7 @@ export const TechnicalSkills = () => {
     { name: "Test Automation", rating: 4 },
   ];
   const additionalTestingAndAutomation = [
-    "TDD", "BDD", "Load Testing", "Performance Testing", "E2E Testing", "API Testing", "Selenium", "Playwright", "Cypress", "Protractor", "JIRA", "HP Quality Center", "Test Link", "Bugzilla", "Test Complete"
+    "TDD", "BDD", "Load Testing", "Performance Testing", "E2E Testing", "API Testing", "Selenium", "Playwright", "Cypress", "Protractor", "JIRA", "HP Quality Center", "Test Link", "Bugzilla", "Test Complete", "Operating Systems (Windows, Linux, MacOS)"
   ];
 
   const ProjectManagementTools = [
@@ -77,7 +77,7 @@ export const TechnicalSkills = () => {
     { name: "MS Project", rating: 4 },
   ];
   const additionalProjectManagementTools = [
-    "Git", "Azure DevOps Boards", "GitHub Projects", "Open Project", "MS Toolkit", "Prezi", "XMind", "Figma", "Adobe InDesign"
+    "Git", "Nexus", "Azure DevOps Boards", "GitHub Projects", "Open Project", "MS Toolkit", "Prezi", "XMind", "Figma", "Adobe InDesign"
   ];
 
   return (
@@ -212,7 +212,7 @@ export const TechnicalSkills = () => {
         </div>
 
         <div>
-          <h3 className="font-bold text-foreground mb-4 text-12px">Tools</h3>
+          <h3 className="font-bold text-foreground mb-4 text-12px">Databases</h3>
           <div className="grid grid-cols-3 gap-8 mb-4">
             {tools.map((tool, index) => (
               <div key={tool.name} className="flex items-center justify-between relative px-2">

@@ -152,7 +152,7 @@ export const WorkExperience = () => {
         devops: "Jenkins, GitHub Actions, Azure DevOps, Docker, Docker hub, Rancher Desktop, CI/CD pipelines, Kubernetes (K8s), AWS, Azure, Windows, Linux, MacOS",
         tools: "JIRA, Confluence, Git, BPMN & UML tools, Keycloak, MS Playwright, Cypress, Selenium, Electron,  XMind, Figma, Veracode, IntelliJ, VS Code, Android Studio, Xcode",
         aitools: "GitHub Copilot, claude.ai",
-        clientserver: "AngularJS, ESLint, Node.js",
+        clientserver: "AngularJS, ESLint, Node.js (Node), Oracle DB, MariaDB",
       }
     },
     {

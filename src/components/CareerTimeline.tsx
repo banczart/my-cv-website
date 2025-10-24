@@ -96,7 +96,7 @@ export const CareerTimeline = () => {
         <div className="relative space-y-2 z-20">
           {timelineData.map((track, idx) => (
             <div key={idx} className="flex items-center h-5">
-              <div className="w-52 text-11px font-medium text-foreground pr-2 flex items-baseline gap-2">
+              <div className="career-timeline-label w-52 text-11px font-medium text-foreground pr-2 flex items-baseline gap-2">
                 <span className="flex-1 whitespace-nowrap overflow-hidden text-ellipsis">{track.label}</span>
                 <span className="text-11px text-muted-foreground font-normal whitespace-nowrap">
                   {calculateTotal(track.periods)}

@@ -130,6 +130,43 @@ All colors MUST be HSL.
   }
 }
 
+/* Mobile responsive styles */
+@media screen and (max-width: 768px) {
+  body {
+    background: white;
+  }
+
+  .a4-container {
+    width: 100%;
+    margin: 0;
+    box-shadow: none;
+    border: none;
+    min-height: auto;
+  }
+
+  .a4-page {
+    width: 100%;
+    min-height: auto;
+    padding: 16px;
+  }
+
+  /* Hide arrow on mobile */
+  .arrow-left-border {
+    display: none;
+  }
+
+  /* Make career timeline responsive */
+  .career-timeline-label {
+    width: auto !important;
+    min-width: 100px;
+  }
+
+  /* Stack technical skills on mobile */
+  .grid-cols-3 {
+    grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+  }
+}
+
 @media print {
   @page {
     margin: 10mm 0;

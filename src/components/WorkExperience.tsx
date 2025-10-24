@@ -45,8 +45,8 @@ const ExperienceItem = ({
     <div className="mb-10">
       <div className="flex items-start gap-6 mb-3">
         <div className="flex-1">
-          <h3 className="text-base font-semibold text-foreground mb-1">{title}</h3>
-          <p className="text-muted-foreground font-semibold" style={{ fontSize: '13px' }}>{subtitle}</p>
+          <h3 className="font-semibold text-foreground mb-1" style={{ fontSize: '14px' }}>{title}</h3>
+          <p className="text-muted-foreground font-semibold" style={{ fontSize: '12.8px' }}>{subtitle}</p>
         </div>
         
         <div className="flex items-center justify-end" style={{ width: '120px', flexShrink: 0 }}>
@@ -56,16 +56,16 @@ const ExperienceItem = ({
         </div>
       </div>
 
-      <div className="text-muted-foreground mb-1" style={{ fontSize: '13px' }}>
+      <div className="text-muted-foreground mb-1" style={{ fontSize: '12px' }}>
         {period} ({duration})
       </div>
-      <div className="text-muted-foreground mb-4" style={{ fontSize: '13px' }}>
+      <div className="text-muted-foreground mb-4" style={{ fontSize: '12px' }}>
         {location}
       </div>
 
       <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-2 mb-4">
         {achievements.map((achievement, index) => (
-          <li key={index} className="flex gap-3 text-xs text-muted-foreground">
+          <li key={index} className="flex gap-3 text-muted-foreground" style={{ fontSize: '11px' }}>
             <span className="text-foreground mt-0.5">•</span>
             <span className="flex-1" style={{ hyphens: 'auto', wordBreak: 'break-word', textAlign: 'justify' }}>
               {parseAchievement(achievement)}
@@ -75,7 +75,7 @@ const ExperienceItem = ({
       </ul>
 
       {keywords && (
-        <div style={{ fontSize: '12px', lineHeight: '1.4' }}>
+        <div style={{ fontSize: '11px', lineHeight: '1.4' }}>
           <div style={{ wordWrap: 'break-word' }}>
             {keywords.other && (
               <>
@@ -109,7 +109,7 @@ const ExperienceItem = ({
             )}
             {keywords.clientserver && (
               <>
-                <strong className="font-semibold text-foreground">Client/Server:</strong> <span className="text-muted-foreground">{keywords.clientserver}</span>
+                <strong className="font-semibold text-foreground">Client/Server/DB:</strong> <span className="text-muted-foreground">{keywords.clientserver}</span>
                 {(keywords.tools) && <span style={{ marginLeft: '16px' }}></span>}
               </>
             )}
@@ -201,18 +201,21 @@ export const WorkExperience = () => {
          "**Supported sales** through technical consultancy, RFPs, solution proposals, MVPs, and contract negotiations."
       ],
       keywords: {
-        languages: "JavaScript, Node.js, React",
-        approach: "Kanban",
-        tools: "Git, Jest, MongoDB, AWS"
+        other: "ELC, TA, JD, HC, R&R, ESAT, NPS, RM",
+        languages: "TypeScript, JavaScript, XML, SQL, HTML, CSS, JAVA",
+        approach: "Agile, Scrum, Kanban",
+        devops: "Jenkins, GitHub, Azure DevOps, Docker,CI/CD pipelines, Kubernetes (K8s), AWS",
+        tools: "JIRA, Confluence, Git, BPMN & UML tools, Keycloak, Cypress, Selenium, Protractor, XMind, Figma, Veracode, IntelliJ, VS Code, GoogleDFP, Adform, Adnuntius, Super Office, Salesforce, Adobe InDesign",
+        clientserver: "AngularJS, Bootstrap, jQuery, Protractor, Gruntjs, HTML5, CSS3, Apache Tomcat, Apache CXF, Hibernate, Spring Framework, Maven, Oracle, PostgresSQL, MariaDB, Java 1.8, JSP, JAX-WS, WSDL, SOAP, Adobe Flex platform, Adobe AIR runtime, Java EE Server, Hibernate, Jboss (Wildfly)",
       }
-    },
+    },,
   {
       title: "Senior Project Manager",
       subtitle: "Engineering Manager, Release Manager, Scrum Master",
       company: "Tieto",
       companyLogo: "/logos/tieto.png",
-      period: "September 2015 - February 2019",
-      duration: "3 years 7 months",
+      period: "December 2013 - September 2015",
+      duration: "1 year 9 months",
       location: "Ostrava, Czech Republic",
       achievements: [
          "**Led Agile delivery of medium and large-scale IT projects**, from contract setup and backlog refinement to production deployment.",
@@ -222,10 +225,9 @@ export const WorkExperience = () => {
          "Supported **issue resolution** and **change management** through transparent communication and **iterative development cycles**."
       ],
       keywords: {
-        languages: "JavaScript, Node.js, React",
-        approach: "Kanban",
-        tools: "Git, Jest, MongoDB, AWS"
-      }
+        approach: "Agile, Scrum, Kanban",
+        devops: "Jenkins, GitHub, Azure DevOps, Docker,CI/CD pipelines, Kubernetes (K8s), AWS",
+        tools: "JIRA, Confluence, MS Project, OpenProject, MS Toolkit, Git, Nexus, XMind, Figma, Salesforce",}
     },
      {
       title: "Delivery Manager",
@@ -233,7 +235,7 @@ export const WorkExperience = () => {
       company: "Tieto",
       companyLogo: "/logos/tieto.png",
       period: "November 2013 - July 2014",
-      duration: "3 years 7 months",
+      duration: "8 months",
       location: "Ostrava, Czech Republic",
       achievements: [
          "**Coordinated delivery activities** for the **City of Helsinki** account, supporting **Customer Executives** and **Delivery Executives**.",
@@ -243,10 +245,8 @@ export const WorkExperience = () => {
          "Ensured **alignment between customer expectations and internal capabilities** through proactive **communication and coordination**."
       ],
       keywords: {
-        languages: "JavaScript, Node.js, React",
-        approach: "Kanban",
-        tools: "Git, Jest, MongoDB, AWS"
-      }
+        approach: "Agile",
+        tools: "JIRA, Confluence, MS Project, OpenProject, MS Toolkit, XMind, Figma, Salesforce",}
     },
      {
       title: "Lead Test Manager & Project Manager",
@@ -264,10 +264,9 @@ export const WorkExperience = () => {
          "Maintained strong **customer engagement**, resolving issues and adapting QA processes to meet evolving **business requirements**."
       ],
       keywords: {
-        languages: "JavaScript, Node.js, React",
-        approach: "Kanban",
-        tools: "Git, Jest, MongoDB, AWS"
-      }
+        approach: "Agile, Scrum, Kanban",
+        devops: "Jenkins, GitHub, AWS, Docker,CI/CD pipelines",
+        tools: "JIRA, Confluence, MS Project, OpenProject, MS Toolkit, Git, Keycloak, Cypress, Selenium, Postman, SoapUI, Protractor, XMind"}
     },
     {
       title: "Senior Test Manager & QA Consultant",
@@ -285,10 +284,9 @@ export const WorkExperience = () => {
          "**Provided **strategic communication** to department leadership and team leads regarding upcoming projects and delivery challenges."
       ],
       keywords: {
-        languages: "JavaScript, Node.js, React",
-        approach: "Kanban",
-        tools: "Git, Jest, MongoDB, AWS"
-      }
+        approach: "Agile, Scrum, Kanban, Watterfall",
+        devops: "Jenkins, GitHub",
+        tools: "HP Quality Center, Test Link, Bugzilla, Test Complete, JIRA, Confluence, MS Toolkit, Git, Keycloak, Selenium, Protractor, Postman, SoapUI,"}
     },
     {
       title: "Test Manager & QA Consultant",
@@ -305,11 +303,10 @@ export const WorkExperience = () => {
          "Conducted **reviews of deliverables**, tracked testing procedures, and reported status to **program management**.",
          "Managed and mentored the **Test Management** & **QA consultancy team**, driving service excellence and supporting **career development**."
       ],
-      keywords: {
-        languages: "JavaScript, Node.js, React",
-        approach: "Kanban",
-        tools: "Git, Jest, MongoDB, AWS"
-      }
+keywords: {
+        approach: "Agile, Waterfall",
+        devops: "Jenkins, GitHub",
+        tools: "HP Quality Center, Test Link, Bugzilla, Test Complete, JIRA, Confluence, MS Toolkit, Git, Keycloak, Selenium, Protractor, Postman, SoapUI,"}
     },
     {
       title: "Protocol Field Test (PFT) Team Leader",
@@ -327,9 +324,7 @@ export const WorkExperience = () => {
          "Achieved successful ramp-up of new application testing efforts, contributing to **quality improvements** and **goal attainment**."
       ],
       keywords: {
-        languages: "JavaScript, Node.js, React",
-        approach: "Kanban",
-        tools: "Git, Jest, MongoDB, AWS"
+        tools: "HP Quality Center, MS Toolkit, Samsung SDK"
       }
     },
     {
@@ -349,16 +344,14 @@ export const WorkExperience = () => {
          "Provided **technical support** to service and sales teams, and delivered **internal training** to new QA engineers in Warsaw and other European LG offices."
       ],
       keywords: {
-        languages: "JavaScript, Node.js, React",
-        approach: "Kanban",
-        tools: "Git, Jest, MongoDB, AWS"
+        tools: "HP Quality Center, MS Toolkit, LG SDK"
       }
     }
   ];
 
   return (
-    <section className="max-w-5xl mx-auto px-6 py-4">
-      <div className="flex items-center gap-3 mb-8">
+    <section className="py-3">
+      <div className="flex items-center gap-3 mb-6">
         <div className="w-6 h-6 bg-primary flex items-center justify-center rounded">
           <Briefcase className="w-3.5 h-3.5 text-white" />
         </div>

@@ -111,7 +111,7 @@ export const TechnicalSkills = () => {
             ))}
           </div>
           <div className="text-11px text-muted-foreground">
-            <span className="font-medium"> </span>
+            <span className="font-medium">Agile: </span>
             {additionalMethodologies.join(", ")}
           </div>
         </div>

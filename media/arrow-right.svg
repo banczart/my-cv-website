@@ -1,0 +1,13 @@
+<!-- by Adrian 'Aksil' Nowacki @ www.nowacki.me -->
+<!-- Copyright © 2017-01-30. Distributed under the MIT License. -->
+<svg width="35px" height="35px" viewBox="0 0 35 35" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<defs>
+		<radialGradient id="gradient" r="24.05" cx="12.5" cy="17.5" spreadMethod="pad" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#42A5F5"/>
+			<stop offset="1" stop-color="#0D47A1"/>
+		</radialGradient>
+	</defs>
+	<g>
+		<path fill="url(#gradient)" stroke="#42A5F5" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" d="M17.5 34.5 0.5 34.5 17.5 17.5 0.5 0.5 17.5 0.5 34.5 17.5 17.5 34.5"/>
+	</g>
+</svg>

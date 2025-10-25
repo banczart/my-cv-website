@@ -10,7 +10,7 @@ export const ProfessionalSummary = () => {
     "**Project Manager** fostering **empowerment** and **blame-free culture**, enabling **high-performing Agile teams**.",
     "**AI Enthusiast** exploring **practical applications** of **artificial intelligence** in **software development**.",
     "**Clean Code Evangelist** fostering **design principles**, **clean code**, and **mentorship**",
-    "**Experienced** in **mobile application development**, with a strong background in building robust **Android** and **iOS** solutions.",
+    "**Experienced** in **mobile app development** with strong expertise in building **Android** and **iOS** solutions.",
   ];
 
   return (

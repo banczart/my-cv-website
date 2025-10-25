@@ -30,7 +30,7 @@ export const TechnicalSkills = () => {
   ];
 
   const additionalLanguages = [
-    "Basic (TypeScript, JavaScript, C#, C++)", "Build tools (Maven, Gradle)", "AI Tools (GitHub Copilot, claude.ai, ChatGPT)", "Frameworks (Angular, React)", "Front-end (AngularJS, Bootstrap, jQuery, CSS3, GoJS)", "Back-end (Apache Tomcat, Apache CXF)", "Security (Veracode)", "Authentication (Keycloak)", "Development environment (IntelliJ, VS Code, Eclipse, Android Studio, Xcode(MacOS))", "Mobile Application Publishing (Android, Apple stores)"
+    "Basic (TypeScript, JavaScript, C#, C++)", "Build tools (Maven, Gradle)", "AI Tools (GitHub Copilot, claude.ai, ChatGPT)", "Frameworks (Angular, React)", "Front-end (AngularJS, Bootstrap, jQuery, CSS3, GoJS)", "Back-end (Apache Tomcat, Apache CXF)", "Security (Veracode)", "Authentication (Keycloak)", "Development environment (IntelliJ, VS Code, Eclipse, Android Studio, Xcode(MacOS))", "Mobile Application Development and Publishing (Capacitor(by Ionic), Android & Apple stores)"
   ];
   const additionalTools = [
     "MariaDB"

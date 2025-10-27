@@ -137,7 +137,7 @@ export const WorkExperience = () => {
       location: "Ostrava, Czech Republic",
       achievements: [
         "**Led globally distributed engineering teams**, driving strategic alignment, organizational effectiveness, and delivery of enterprise-grade energy software solutions.",
-        "**Owned and architected multiple products**, including Energy Component Smart SaaS, Qapps Framework, and Support Tools, leveraging cloud-native technologies.",
+        "**Owned and architected multiple products**, including Energy Component Smart SaaS, QApps Framework, and Support Tools, leveraging cloud-native technologies.",
         "**Designed and implemented cloud architecture** for scalable, secure, and high-performance SaaS solutions, optimizing cost and operational efficiency across upstream and midstream workflows.",
         "**Oversaw full testing lifecycle**: manual, automated (MS Playwright), and performance testing—ensuring product quality, reliability, and compliance with industry standards.",
         "**Championed CI/CD and DevOps transformation**, deploying pipelines via Jenkins, GitHub CI/CD, and Azure DevOps to accelerate delivery and improve engineering productivity.",
@@ -152,7 +152,7 @@ export const WorkExperience = () => {
         devops: "Jenkins, GitHub Actions, Azure DevOps, Docker, Docker hub, Rancher Desktop, CI/CD pipelines, Kubernetes (K8s), AWS, Azure, Windows, Linux, MacOS",
         tools: "JIRA, Confluence, Git, BPMN & UML tools, Keycloak, MS Playwright, Cypress, Selenium, Electron,  XMind, Figma, Veracode, IntelliJ, VS Code, Android Studio, Xcode",
         aitools: "GitHub Copilot, claude.ai",
-        clientserver: "AngularJS, ESLint, Node.js (Node), Oracle DB, MariaDB",
+        clientserver: "AngularJS, ESLint, Node.js (Node), Oracle DB",
       }
     },
     {
@@ -281,7 +281,7 @@ export const WorkExperience = () => {
          "Managed the **Test Services Portfolio**, overseeing **resource allocation**, **recruitment**, and **subcontractor agreements**.",
          "Directed **project staffing**, career path planning, and team coordination to support delivery excellence.",
          "Maintained strong **customer engagement**, handling requests, resolving issues, and ensuring satisfaction.",
-         "**Provided **strategic communication** to department leadership and team leads regarding upcoming projects and delivery challenges."
+         "Provided **strategic communication** to department leadership and team leads regarding upcoming projects and delivery challenges."
       ],
       keywords: {
         approach: "Agile, Scrum, Kanban, Watterfall",

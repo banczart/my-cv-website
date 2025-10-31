@@ -148,7 +148,7 @@ export const WorkExperience = () => {
       keywords: {
         other: "ELC, TA, JD, HC, R&R, ESAT, NPS, RM",
         languages: "TypeScript, JavaScript, XML, SQL, HTML, CSS",
-        approach: "Agile, Scrum, Kanban",
+        approach: "Agile (Scrum, Kanban)",
         devops: "Jenkins, GitHub Actions, Azure DevOps, Docker, Docker hub, Rancher Desktop, CI/CD pipelines, Kubernetes (K8s), AWS, Azure, Windows, Linux, MacOS",
         tools: "JIRA, Confluence, Git, BPMN & UML tools, Keycloak, MS Playwright, Cypress, Selenium, Electron,  XMind, Figma, Veracode, IntelliJ, VS Code, Android Studio, Xcode",
         aitools: "GitHub Copilot, claude.ai",
@@ -176,7 +176,7 @@ export const WorkExperience = () => {
       keywords: {
         other: "ELC, TA, JD, HC, R&R, ESAT, NPS, RM",
         languages: "TypeScript, JavaScript, XML, SQL, HTML, CSS",
-        approach: "Agile, Scrum, Kanban",
+        approach: "Agile (Scrum, Kanban)",
         devops: "Jenkins, GitHub Actions, Azure DevOps, Docker, Docker hub, Rancher Desktop, CI/CD pipelines, Kubernetes (K8s), AWS, Azure, Windows, Linux, MacOS",
         tools: "JIRA, Confluence, Git, BPMN & UML tools, Keycloak, MS Playwright, Cypress, Selenium, Electron,  XMind, Figma, Veracode, IntelliJ, VS Code, Android Studio, Xcode",
         clientserver: "AngularJS, ESLint, Node.js",
@@ -203,7 +203,7 @@ export const WorkExperience = () => {
       keywords: {
         other: "ELC, TA, JD, HC, R&R, ESAT, NPS, RM",
         languages: "TypeScript, JavaScript, XML, SQL, HTML, CSS, JAVA",
-        approach: "Agile, Scrum, Kanban",
+        approach: "Agile (Scrum, Kanban)",
         devops: "Jenkins, GitHub, Azure DevOps, Docker,CI/CD pipelines, Kubernetes (K8s), AWS",
         tools: "JIRA, Confluence, Git, BPMN & UML tools, Keycloak, Cypress, Selenium, Protractor, XMind, Figma, Veracode, IntelliJ, VS Code, GoogleDFP, Adform, Adnuntius, Super Office, Salesforce, Adobe InDesign",
         clientserver: "AngularJS, Bootstrap, jQuery, Protractor, Gruntjs, HTML5, CSS3, Apache Tomcat, Apache CXF, Hibernate, Spring Framework, Maven, Oracle, PostgresSQL, MariaDB, Java 1.8, JSP, JAX-WS, WSDL, SOAP, Adobe Flex platform, Adobe AIR runtime, Java EE Server, Hibernate, Jboss (Wildfly)",
@@ -225,7 +225,7 @@ export const WorkExperience = () => {
          "Supported **issue resolution** and **change management** through transparent communication and **iterative development cycles**."
       ],
       keywords: {
-        approach: "Agile, Scrum, Kanban",
+        approach: "Agile (Scrum, Kanban)",
         devops: "Jenkins, GitHub, Azure DevOps, Docker,CI/CD pipelines, Kubernetes (K8s), AWS",
         tools: "JIRA, Confluence, MS Project, OpenProject, MS Toolkit, Git, Nexus, XMind, Figma, Salesforce",}
     },
@@ -264,7 +264,7 @@ export const WorkExperience = () => {
          "Maintained strong **customer engagement**, resolving issues and adapting QA processes to meet evolving **business requirements**."
       ],
       keywords: {
-        approach: "Agile, Scrum, Kanban",
+        approach: "Agile (Scrum, Kanban)",
         devops: "Jenkins, GitHub, AWS, Docker,CI/CD pipelines",
         tools: "JIRA, Confluence, MS Project, OpenProject, MS Toolkit, Git, Keycloak, Cypress, Selenium, Postman, SoapUI, Protractor, XMind"}
     },
@@ -284,7 +284,7 @@ export const WorkExperience = () => {
          "Provided **strategic communication** to department leadership and team leads regarding upcoming projects and delivery challenges."
       ],
       keywords: {
-        approach: "Agile, Scrum, Kanban, Watterfall",
+        approach: "Agile (Scrum, Kanban), Waterfall",
         devops: "Jenkins, GitHub",
         tools: "HP Quality Center, Test Link, Bugzilla, Test Complete, JIRA, Confluence, MS Toolkit, Git, Keycloak, Selenium, Protractor, Postman, SoapUI,"}
     },
@@ -304,7 +304,7 @@ export const WorkExperience = () => {
          "Managed and mentored the **Test Management** & **QA consultancy team**, driving service excellence and supporting **career development**."
       ],
 keywords: {
-        approach: "Agile, Waterfall",
+        approach: "Agile (Scrum, Kanban), Waterfall",
         devops: "Jenkins, GitHub",
         tools: "HP Quality Center, Test Link, Bugzilla, Test Complete, JIRA, Confluence, MS Toolkit, Git, Keycloak, Selenium, Protractor, Postman, SoapUI,"}
     },

@@ -28,7 +28,7 @@ export const CVHeader = () => {
               </div>
               <div className="flex items-center gap-2 text-muted-foreground">
                 <Mail className="w-4 h-4" />
-                <span>arturbanczyk@yhaoo.co.uk</span>
+                <span>arturbanczyk@yahoo.co.uk</span>
               </div>
               <div className="flex items-center gap-2 text-muted-foreground">
                 <Linkedin className="w-4 h-4" />

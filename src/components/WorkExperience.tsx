@@ -42,7 +42,7 @@ const ExperienceItem = ({
   };
 
   return (
-    <div className="mb-10">
+    <div style={{ marginBottom: '20px' }}>
       <div className="flex items-start gap-6 mb-3">
         <div className="flex-1">
           <h3 className="font-semibold text-foreground mb-1" style={{ fontSize: '14px' }}>{title}</h3>
@@ -75,47 +75,54 @@ const ExperienceItem = ({
       </ul>
 
       {keywords && (
-        <div style={{ fontSize: '11px', lineHeight: '1.4' }}>
-          <div style={{ wordWrap: 'break-word' }}>
+        <div style={{ fontSize: '11px', lineHeight: '1.4', textAlign: 'justify' }}>
+          <div>
             {keywords.other && (
               <>
-                <strong className="font-semibold text-foreground">Keywords:</strong> <span className="text-muted-foreground">{keywords.other}</span>
-                {(keywords.approach || keywords.devops || keywords.languages || keywords.aitools || keywords.clientserver || keywords.tools) && <span style={{ marginLeft: '16px' }}></span>}
+                <strong className="font-semibold text-foreground">Keywords:</strong>{' '}
+                <span className="text-muted-foreground" style={{ whiteSpace: 'pre-wrap' }}>{keywords.other}</span>
+                {(keywords.approach || keywords.devops || keywords.languages || keywords.aitools || keywords.clientserver || keywords.tools) && <span> </span>}
               </>
             )}
             {keywords.approach && (
               <>
-                <strong className="font-semibold text-foreground">Approach:</strong> <span className="text-muted-foreground">{keywords.approach}</span>
-                {(keywords.devops || keywords.languages || keywords.aitools || keywords.clientserver || keywords.tools) && <span style={{ marginLeft: '16px' }}></span>}
+                <strong className="font-semibold text-foreground">Approach:</strong>{' '}
+                <span className="text-muted-foreground" style={{ whiteSpace: 'pre-wrap' }}>{keywords.approach}</span>
+                {(keywords.devops || keywords.languages || keywords.aitools || keywords.clientserver || keywords.tools) && <span> </span>}
               </>
             )}
             {keywords.devops && (
               <>
-                <strong className="font-semibold text-foreground">DevOps:</strong> <span className="text-muted-foreground">{keywords.devops}</span>
-                {(keywords.languages || keywords.aitools || keywords.clientserver || keywords.tools) && <span style={{ marginLeft: '16px' }}></span>}
+                <strong className="font-semibold text-foreground">DevOps:</strong>{' '}
+                <span className="text-muted-foreground" style={{ whiteSpace: 'pre-wrap' }}>{keywords.devops}</span>
+                {(keywords.languages || keywords.aitools || keywords.clientserver || keywords.tools) && <span> </span>}
               </>
             )}
             {keywords.languages && (
               <>
-                <strong className="font-semibold text-foreground">Languages:</strong> <span className="text-muted-foreground">{keywords.languages}</span>
-                {(keywords.aitools || keywords.clientserver || keywords.tools) && <span style={{ marginLeft: '16px' }}></span>}
+                <strong className="font-semibold text-foreground">Languages:</strong>{' '}
+                <span className="text-muted-foreground" style={{ whiteSpace: 'pre-wrap' }}>{keywords.languages}</span>
+                {(keywords.aitools || keywords.clientserver || keywords.tools) && <span> </span>}
               </>
             )}
             {keywords.aitools && (
               <>
-                <strong className="font-semibold text-foreground">AI Tools:</strong> <span className="text-muted-foreground">{keywords.aitools}</span>
-                {(keywords.clientserver || keywords.tools) && <span style={{ marginLeft: '16px' }}></span>}
+                <strong className="font-semibold text-foreground">AI Tools:</strong>{' '}
+                <span className="text-muted-foreground" style={{ whiteSpace: 'pre-wrap' }}>{keywords.aitools}</span>
+                {(keywords.clientserver || keywords.tools) && <span> </span>}
               </>
             )}
             {keywords.clientserver && (
               <>
-                <strong className="font-semibold text-foreground">Client/Server/DB:</strong> <span className="text-muted-foreground">{keywords.clientserver}</span>
-                {(keywords.tools) && <span style={{ marginLeft: '16px' }}></span>}
+                <strong className="font-semibold text-foreground">Client/Server/DB:</strong>{' '}
+                <span className="text-muted-foreground" style={{ whiteSpace: 'pre-wrap' }}>{keywords.clientserver}</span>
+                {(keywords.tools) && <span> </span>}
               </>
             )}
             {keywords.tools && (
               <>
-                <strong className="font-semibold text-foreground">Other Tools:</strong> <span className="text-muted-foreground">{keywords.tools}</span>
+                <strong className="font-semibold text-foreground">Other Tools:</strong>{' '}
+                <span className="text-muted-foreground" style={{ whiteSpace: 'pre-wrap' }}>{keywords.tools}</span>
               </>
             )}
           </div>

@@ -110,7 +110,7 @@ export const TechnicalSkills = () => {
               </div>
             ))}
           </div>
-          <div className="text-11px text-muted-foreground">
+          <div className="text-11px text-muted-foreground" style={{ textAlign: 'justify' }}>
             <span className="font-medium">Agile: </span>
             {additionalMethodologies.join(", ")}
           </div>
@@ -129,7 +129,7 @@ export const TechnicalSkills = () => {
               </div>
             ))}
           </div>
-          <div className="text-11px text-muted-foreground">
+          <div className="text-11px text-muted-foreground" style={{ textAlign: 'justify' }}>
             <span className="font-medium">Also: </span>
             {additionalCloudAndIntegrations.join(", ")}
           </div>
@@ -148,7 +148,7 @@ export const TechnicalSkills = () => {
               </div>
             ))}
           </div>
-          <div className="text-11px text-muted-foreground">
+          <div className="text-11px text-muted-foreground" style={{ textAlign: 'justify' }}>
             <span className="font-medium"> </span>
             {additionalDevOps.join(", ")}
           </div>
@@ -167,7 +167,7 @@ export const TechnicalSkills = () => {
               </div>
             ))}
           </div>
-          <div className="text-11px text-muted-foreground">
+          <div className="text-11px text-muted-foreground" style={{ textAlign: 'justify' }}>
             <span className="font-medium"> </span>
             {additionalTestingAndAutomation.join(", ")}
           </div>
@@ -186,7 +186,7 @@ export const TechnicalSkills = () => {
               </div>
             ))}
           </div>
-          <div className="text-11px text-muted-foreground">
+          <div className="text-11px text-muted-foreground" style={{ textAlign: 'justify' }}>
             <span className="font-medium">Also: </span>
             {additionalProjectManagementTools.join(", ")}
           </div>
@@ -205,7 +205,7 @@ export const TechnicalSkills = () => {
               </div>
             ))}
           </div>
-          <div className="text-11px text-muted-foreground">
+          <div className="text-11px text-muted-foreground" style={{ textAlign: 'justify' }}>
             <span className="font-medium"> </span>
             {additionalLanguages.join(", ")}
           </div>
@@ -224,7 +224,7 @@ export const TechnicalSkills = () => {
               </div>
             ))}
           </div>
-          <div className="text-11px text-muted-foreground">
+          <div className="text-11px text-muted-foreground" style={{ textAlign: 'justify' }}>
             <span className="font-medium">Also: </span>
             {additionalTools.join(", ")}
           </div>

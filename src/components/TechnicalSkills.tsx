@@ -68,7 +68,7 @@ export const TechnicalSkills = () => {
     { name: "Test Automation", rating: 4 },
   ];
   const additionalTestingAndAutomation = [
-    "TDD", "BDD", "Load Testing", "Performance Testing", "E2E Testing", "API Testing", "Selenium", "Playwright", "Cypress", "Protractor", "Unit Testing (Jasmine, Karma, JUnit, Mockito)", "JIRA", "HP Quality Center", "Test Link", "Bugzilla", "Test Complete", "Operating Systems (Windows, Linux, MacOS)"
+    "TDD", "BDD", "Performance Testing", "E2E Testing", "API Testing", "Selenium", "Playwright", "Cypress", "Protractor", "Unit Testing (Jasmine, Karma, JUnit, Mockito)", "JIRA", "HP Quality Center", "Test Link", "Bugzilla", "Test Complete", "Operating Systems (Windows, Linux, MacOS)"
   ];
 
   const ProjectManagementTools = [

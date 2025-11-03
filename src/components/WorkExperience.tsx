@@ -137,7 +137,7 @@ export const WorkExperience = () => {
       location: "Ostrava, Czech Republic",
       achievements: [
         "**Led globally distributed engineering teams**, driving strategic alignment, organizational effectiveness, and delivery of enterprise-grade energy software solutions.",
-        "**Owned and architected multiple products**, including Energy Component Smart SaaS, QApps Framework, and Support Tools, leveraging cloud-native technologies.",
+        "**Owned and architected multiple products**, including Energy Component Smart SaaS, QApps Framework, and Support Tools, leveraging cloud-native technologies and a microservices-based architecture.",
         "**Designed and implemented cloud architecture** for scalable, secure, and high-performance SaaS solutions, optimizing cost and operational efficiency across upstream and midstream workflows.",
         "**Oversaw full testing lifecycle**: manual, automated (MS Playwright), and performance testing—ensuring product quality, reliability, and compliance with industry standards.",
         "**Championed CI/CD and DevOps transformation**, deploying pipelines via Jenkins, GitHub CI/CD, and Azure DevOps to accelerate delivery and improve engineering productivity.",

@@ -150,7 +150,7 @@ export const WorkExperience = () => {
         languages: "TypeScript, JavaScript, XML, SQL, HTML, CSS",
         approach: "Agile (Scrum, Kanban)",
         devops: "Jenkins, GitHub Actions, Azure DevOps, Docker, Docker hub, Rancher Desktop, CI/CD pipelines, Kubernetes (K8s), AWS, Azure, Windows, Linux, MacOS",
-        tools: "JIRA, Confluence, Git, BPMN & UML tools, Keycloak, MS Playwright, Cypress, Selenium, Electron,  XMind, Figma, Veracode, IntelliJ, VS Code, Android Studio, Xcode",
+        tools: "JIRA, Confluence, Git, BPMN & UML tools, Keycloak, MS Playwright, Cypress, Selenium, Unit Testing (Jasmine, Karma), Electron,  XMind, Figma, Veracode, IntelliJ, VS Code, Android Studio, Xcode",
         aitools: "GitHub Copilot, claude.ai",
         clientserver: "AngularJS, ESLint, Node.js (Node), Oracle DB",
       }
@@ -178,7 +178,7 @@ export const WorkExperience = () => {
         languages: "TypeScript, JavaScript, XML, SQL, HTML, CSS",
         approach: "Agile (Scrum, Kanban)",
         devops: "Jenkins, GitHub Actions, Azure DevOps, Docker, Docker hub, Rancher Desktop, CI/CD pipelines, Kubernetes (K8s), AWS, Azure, Windows, Linux, MacOS",
-        tools: "JIRA, Confluence, Git, BPMN & UML tools, Keycloak, MS Playwright, Cypress, Selenium, Electron,  XMind, Figma, Veracode, IntelliJ, VS Code, Android Studio, Xcode",
+        tools: "JIRA, Confluence, Git, BPMN & UML tools, Keycloak, MS Playwright, Cypress, Selenium, Electron, Unit Testing (Jasmine, Karma), XMind, Figma, Veracode, IntelliJ, VS Code, Android Studio, Xcode",
         clientserver: "AngularJS, ESLint, Node.js",
       }
     },
@@ -205,7 +205,7 @@ export const WorkExperience = () => {
         languages: "TypeScript, JavaScript, XML, SQL, HTML, CSS, JAVA",
         approach: "Agile (Scrum, Kanban)",
         devops: "Jenkins, GitHub, Azure DevOps, Docker,CI/CD pipelines, Kubernetes (K8s), AWS",
-        tools: "JIRA, Confluence, Git, BPMN & UML tools, Keycloak, Cypress, Selenium, Protractor, XMind, Figma, Veracode, IntelliJ, VS Code, GoogleDFP, Adform, Adnuntius, Super Office, Salesforce, Adobe InDesign",
+        tools: "JIRA, Confluence, Git, BPMN & UML tools, Keycloak, Cypress, Selenium, Protractor, Unit Testing (Jasmine, Karma, JUnit, Mockito), XMind, Figma, Veracode, IntelliJ, VS Code, GoogleDFP, Adform, Adnuntius, Super Office, Salesforce, Adobe InDesign",
         clientserver: "AngularJS, Bootstrap, jQuery, Protractor, Gruntjs, HTML5, CSS3, Apache Tomcat, Apache CXF, Hibernate, Spring Framework, Maven, Oracle, PostgresSQL, MariaDB, Java 1.8, JSP, JAX-WS, WSDL, SOAP, Adobe Flex platform, Adobe AIR runtime, Java EE Server, Hibernate, Jboss (Wildfly)",
       }
     },,

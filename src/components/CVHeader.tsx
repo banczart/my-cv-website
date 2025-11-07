@@ -47,7 +47,7 @@ export const CVHeader = () => {
           
           <div className="w-24 h-24 md:w-32 md:h-32 bg-muted rounded-lg overflow-hidden flex-shrink-0">
             <img 
-              src="https://media.licdn.com/dms/image/v2/C4E03AQF623MqSx3jMA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516289442840?e=1762387200&v=beta&t=IuGvxZOGpl8rO0Ch6x8l9CIS0GP3T9_x3gOrHJl5Cj8" 
+              src="/media/AB_profile_picture.jpeg" 
               alt="Profile" 
               className="w-full h-full object-cover"
             />

@@ -68,7 +68,7 @@ export const TechnicalSkills = () => {
     { name: "Test Automation", rating: 4 },
   ];
   const additionalTestingAndAutomation = [
-    "TDD", "BDD", "Performance Testing", "E2E Testing", "API Testing", "Selenium", "Playwright", "Cypress", "Protractor", "Unit Testing (Jasmine, Karma, JUnit, Mockito)", "JIRA", "HP Quality Center", "Test Link", "Bugzilla", "Test Complete", "Operating Systems (Windows, Linux, MacOS)"
+    "TDD", "BDD", "Performance Testing", "E2E Testing", "API Testing", "MS Playwright", "Cypress", "Selenium", "Protractor", "Robot Framework", "Tricentis Tosca", "Unit Testing (Jasmine, Karma, JUnit, Mockito)", "JIRA", "HP Quality Center", "Test Link", "Bugzilla", "Test Complete", "Operating Systems (Windows, Linux, MacOS)"
   ];
 
   const ProjectManagementTools = [
@@ -77,7 +77,7 @@ export const TechnicalSkills = () => {
     { name: "MS Project", rating: 4 },
   ];
   const additionalProjectManagementTools = [
-    "Git", "Nexus", "Azure DevOps Boards", "GitHub Projects", "Open Project", "MS Toolkit", "Prezi", "XMind", "Figma", "Adobe InDesign"
+    "Git", "Nexus", "Azure DevOps Boards", "GitHub Projects", "Open Project", "MS Toolkit", "Xray (Jira)", "Prezi", "XMind", "Figma", "Adobe InDesign"
   ];
 
   return (

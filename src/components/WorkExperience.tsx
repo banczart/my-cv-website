@@ -135,8 +135,8 @@ const ExperienceItem = ({
 export const WorkExperience = () => {
   const experiences: ExperienceProps[] = [
     {
-      title: "Product Owner & Country Manager",
-      subtitle: "Engineering Manager, Release Manager, Scrum Master",
+      title: "Product Owner & Engineering Manager",
+      subtitle: "Country Manager, Release Manager, Scrum Master",
       company: "Quorum Software",
       companyLogo: "/logos/quorum-software.png",
       period: "June 2021 - Present",

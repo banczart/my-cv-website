@@ -30,7 +30,7 @@ export const TechnicalSkills = () => {
   ];
 
   const additionalLanguages = [
-    "Basic (TypeScript, JavaScript, C#, C++)", "Build tools (Maven, Gradle)", "AI Tools (GitHub Copilot, claude.ai, ChatGPT)", "Frameworks (Angular, React)", "Front-end (AngularJS, Bootstrap, jQuery, CSS3, GoJS)", "Back-end (Apache Tomcat, Apache CXF)", "Security (Veracode)", "Authentication (Keycloak)", "Development environment (IntelliJ, VS Code, Eclipse, Android Studio, Xcode(MacOS))", "Mobile Application Development and Publishing (Capacitor(by Ionic), Android & Apple stores)"
+    "Basic (TypeScript, JavaScript, C#, C++)", "Build tools (Maven, Gradle)", "AI (GitHub Copilot, Claude, GPT, LLMs, Context Engineering, Generative & Agentic AI)", "Frameworks (Angular, React)", "Front-end (AngularJS, Bootstrap, jQuery, CSS3, GoJS)", "Back-end (Apache Tomcat, Apache CXF)", "Security (Veracode)", "Authentication (Keycloak)", "Development environment (IntelliJ, VS Code, Eclipse, Android Studio, Xcode(MacOS))", "Mobile Application Development and Publishing (Capacitor(by Ionic), Android & Apple stores)"
   ];
   const additionalTools = [
     "MariaDB"
@@ -68,7 +68,7 @@ export const TechnicalSkills = () => {
     { name: "Test Automation", rating: 4 },
   ];
   const additionalTestingAndAutomation = [
-    "TDD", "BDD", "Performance Testing", "E2E Testing", "API Testing", "MS Playwright", "Cypress", "Selenium", "Protractor", "Robot Framework", "Tricentis Tosca", "Unit Testing (Jasmine, Karma, JUnit, Mockito)", "JIRA", "HP Quality Center", "Test Link", "Bugzilla", "Test Complete", "Operating Systems (Windows, Linux, MacOS)"
+    "TDD", "BDD", "Performance Testing", "Postman", "JMeter", "Swagger", "REST clients", "E2E Testing", "API Testing", "MS Playwright", "Cypress", "Selenium", "Protractor", "Robot Framework", "Tricentis Tosca", "Unit Testing (Jasmine, Karma, JUnit, Mockito)", "JIRA", "HP Quality Center", "Test Link", "Bugzilla", "Test Complete", "Operating Systems (Windows, Linux, MacOS)"
   ];
 
   const ProjectManagementTools = [

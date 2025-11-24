@@ -68,7 +68,7 @@ export const TechnicalSkills = () => {
     { name: "Test Automation", rating: 4 },
   ];
   const additionalTestingAndAutomation = [
-    "TDD", "BDD", "Performance Testing", "Postman", "JMeter", "Swagger", "API testing", "REST clients", "E2E Testing", "Database Testing", "MS Playwright", "Cypress", "Selenium", "Protractor", "Robot Framework", "Tricentis Tosca", "Unit Testing (Jasmine, Karma, JUnit, Mockito)", "JIRA", "HP Quality Center", "Test Link", "Bugzilla", "Test Complete", "Operating Systems (Windows, Linux, MacOS)"
+    "E2E Testing", "Integration Testing", "API testing", "Performance Testing", "NFR testing", "JIRA", "HP Quality Center", "TestRail", "QA Reporting tools","TDD", "BDD", "Postman", "JMeter", "Swagger", "REST clients", "Database Testing", "MS Playwright", "Cypress", "Selenium", "Protractor", "Robot Framework", "Tricentis Tosca", "Unit Testing (Jasmine, Karma, JUnit, Mockito)", "Test Link", "Bugzilla", "Test Complete", "Operating Systems (Windows, Linux, MacOS)"
   ];
 
   const ProjectManagementTools = [

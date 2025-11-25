@@ -40,7 +40,7 @@ export const CareerTimeline = () => {
       ]
     },
     { 
-      label: "Test Management", 
+      label: "Test Management & Testing", 
       color: "bg-[hsl(var(--cv-purple))]",
       periods: [
         { start: 2008, duration: 209, label: "17y 5m" }

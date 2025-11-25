@@ -7,6 +7,7 @@ export const ProfessionalSummary = () => {
     "**Product Owner** guiding cross-functional teams to deliver customer-focused solutions aligned with strategic goals.",
     "**Engineer** with **20 years** of commercial experience in **Leading SW Development**, **Testing**, and **DevOps**",
     "**Test Manager** driving agile teams to deliver **scalable UI & API** test solutions with strong **quality ownership**.",
+    "**Senior Test Engineer** with extensive hands-on experience in both **manual** and **automated testing**",
     "**Project Manager** fostering **empowerment** and **blame-free culture**, enabling **high-performing Agile teams**.",
     "**AI Enthusiast** exploring **practical applications** of **artificial intelligence** in **software development**.",
     "**Clean Code Evangelist** fostering **design principles**, **clean code**, and **mentorship**",

@@ -50,7 +50,7 @@ export const TechnicalSkills = () => {
     { name: "API Integration", rating: 5 },
   ];
   const additionalCloudAndIntegrations = [
-    "Google Cloud", "REST APIs", "Microservices", "SaaS", "PaaS", "OAuth", "GraphQL"
+    "Google Cloud", "REST APIs", "Microservices", "SaaS", "PaaS", "OAuth", "CloudWatch", "Grafana", "GraphQL"
   ];
 
   const DevOps = [
@@ -77,7 +77,7 @@ export const TechnicalSkills = () => {
     { name: "MS Project", rating: 4 },
   ];
   const additionalProjectManagementTools = [
-    "Git", "Nexus", "Azure DevOps Boards", "GitHub Projects", "Open Project", "MS Toolkit", "Xray (Jira)", "Prezi", "XMind", "Figma", "Adobe InDesign"
+    "Git", "Nexus", "Azure DevOps Boards", "GitHub Projects", "Open Project", "MS Toolkit", "Xray (Jira)", "Prezi", "XMind", "Figma", "Adobe InDesign", "Workday"
   ];
 
   return (

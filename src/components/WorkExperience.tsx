@@ -152,10 +152,10 @@ export const WorkExperience = () => {
         other: "ELC, TA, JD, HC, R&R, ESAT, NPS, RM",
         languages: "JAVA, TypeScript, JavaScript, XML, SQL, HTML, CSS",
         approach: "Agile (Scrum, Kanban)",
-        devops: "Jenkins, GitHub Actions, Azure DevOps, Docker, Docker hub, Rancher Desktop, CI/CD pipelines, Kubernetes (K8s), AWS, Azure, Windows, Linux, MacOS",
+        devops: "Jenkins, Docker, Rancher Desktop, CI/CD pipelines, Kubernetes (K8s), AWS, Windows, Linux",
         tools: "Selenium, Cucumber, MS Playwright, JUnit, Postman, JMeter, JIRA, Confluence, Git, BPMN & UML tools, Keycloak, Electron, Veracode, IntelliJ, VS Code",
         aitools: "GitHub Copilot, ClaudeCode",
-        clientserver: "AngularJS, ESLint, Node.js (Node), Oracle DB",
+        clientserver: "JSF, Oracle DB",
       }
     },
     {

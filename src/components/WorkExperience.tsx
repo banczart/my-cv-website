@@ -135,6 +135,30 @@ const ExperienceItem = ({
 export const WorkExperience = () => {
   const experiences: ExperienceProps[] = [
     {
+      title: "Senior QA Manager",
+      subtitle: "Energy Components QA Manager",
+      company: "Quorum Software",
+      companyLogo: "/logos/quorum-software.png",
+      period: "June 2021 - Present",
+      duration: "4 years 6 months",
+      location: "Ostrava, Czech Republic",
+      achievements: [
+        "**Build organization-wide testing strategy** and quality gates across Engineering, Customer Experience/Evergreen and Professional Services",
+        "Partnering with key stakeholders across our **SaaS delivery** to drive our EC SaaS quality objectives, e.g. on implementing **scalable automated testing**",
+        "Partner with Engineering **Test Automation Framework** team to ensure broad adoption of modern QA methodologies, including **shift-left testing** and **AI-powered testing capabilities**",
+        "Establishing **quality metrics** and **standards** for EC SaaS delivery"
+      ],
+      keywords: {
+        other: "ELC, TA, JD, HC, R&R, ESAT, NPS, RM",
+        languages: "JAVA, TypeScript, JavaScript, XML, SQL, HTML, CSS",
+        approach: "Agile (Scrum, Kanban)",
+        devops: "Jenkins, GitHub Actions, Azure DevOps, Docker, Docker hub, Rancher Desktop, CI/CD pipelines, Kubernetes (K8s), AWS, Azure, Windows, Linux, MacOS",
+        tools: "Selenium, Cucumber, MS Playwright, JUnit, Postman, JMeter, JIRA, Confluence, Git, BPMN & UML tools, Keycloak, Electron, Veracode, IntelliJ, VS Code",
+        aitools: "GitHub Copilot, ClaudeCode",
+        clientserver: "AngularJS, ESLint, Node.js (Node), Oracle DB",
+      }
+    },
+    {
       title: "Product Owner & Engineering Manager",
       subtitle: "Country Manager, Release Manager, Scrum Master",
       company: "Quorum Software",

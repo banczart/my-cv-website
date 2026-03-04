@@ -163,7 +163,7 @@ export const WorkExperience = () => {
       subtitle: "Country Manager, Release Manager, Scrum Master",
       company: "Quorum Software",
       companyLogo: "/logos/quorum-software.png",
-      period: "June 2021 - Present",
+      period: "June 2021 - December 2025",
       duration: "4 years 6 months",
       location: "Ostrava, Czech Republic",
       achievements: [

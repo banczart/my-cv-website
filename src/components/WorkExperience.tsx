@@ -139,9 +139,9 @@ export const WorkExperience = () => {
       subtitle: "Energy Components QA Manager",
       company: "Quorum Software",
       companyLogo: "/logos/quorum-software.png",
-      period: "June 2021 - Present",
-      duration: "4 years 6 months",
-      location: "Ostrava, Czech Republic",
+      period: "January 2026 - Present",
+      duration: "0 years 3 months",
+      location: "Remote, Poland",
       achievements: [
         "**Build organization-wide testing strategy** and quality gates across Engineering, Customer Experience/Evergreen and Professional Services",
         "Partnering with key stakeholders across our **SaaS delivery** to drive our EC SaaS quality objectives, e.g. on implementing **scalable automated testing**",

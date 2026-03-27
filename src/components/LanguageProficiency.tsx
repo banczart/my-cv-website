@@ -1,6 +1,6 @@
 export const LanguageProficiency = () => {
   const languages = [
-    { name: "Polsih", level: "Native", color: "bg-primary" },
+    { name: "Polish", level: "Native", color: "bg-primary" },
     { name: "English", level: "C2 Proficient", color: "bg-[hsl(var(--cv-orange))]" },
     { name: "Czech", level: "Basic", color: "bg-[hsl(var(--cv-green))]" },
   ];

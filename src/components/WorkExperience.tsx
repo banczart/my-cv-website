@@ -239,8 +239,8 @@ export const WorkExperience = () => {
         tools: "JIRA, Confluence, Git, BPMN & UML tools, Keycloak, Cypress, Selenium, Protractor, Unit Testing (Jasmine, Karma, JUnit, Mockito), XMind, Figma, Veracode, IntelliJ, VS Code, GoogleDFP, Adform, Adnuntius, Super Office, Salesforce, Adobe InDesign",
         clientserver: "AngularJS, Bootstrap, jQuery, Protractor, Gruntjs, HTML5, CSS3, Apache Tomcat, Apache CXF, Hibernate, Spring Framework, Maven, Oracle, PostgresSQL, MariaDB, Java 1.8, JSP, JAX-WS, WSDL, SOAP, Adobe Flex platform, Adobe AIR runtime, Java EE Server, Hibernate, Jboss (Wildfly)",
       }
-    },,
-  {
+    },
+    {
       title: "Senior Project Manager",
       subtitle: "Release Manager, Scrum Master",
       company: "Tieto",

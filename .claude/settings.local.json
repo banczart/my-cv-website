@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /c/EC/SourceCode/my-cv-website -name *.test.* -o -name *.spec.* -o -name playwright.config.* -o -name vitest.config.*)",
+      "Bash(npm install:*)",
+      "Bash(node -e \"const p=require\\(''./package.json''\\); Object.entries\\(p.scripts\\).filter\\(\\([k]\\)=>k.startsWith\\(''test''\\)\\).forEach\\(\\([k,v]\\)=>console.log\\(k+'': ''+v\\)\\)\")",
+      "Bash(cp /c/EC/SourceCode/my-cv-website/.claude/skills/sdlc-test-generator.md /c/EC/SourceCode/my-cv-website/.claude/commands/sdlc-test-generator.md)",
+      "Bash(cp /c/EC/SourceCode/my-cv-website/.claude/skills/sdlc-test-runner.md /c/EC/SourceCode/my-cv-website/.claude/commands/sdlc-test-runner.md)",
+      "Bash(cp /c/EC/SourceCode/my-cv-website/.claude/skills/sdlc-test-analyzer.md /c/EC/SourceCode/my-cv-website/.claude/commands/sdlc-test-analyzer.md)",
+      "Bash(cp /c/EC/SourceCode/my-cv-website/.claude/skills/sdlc-build.md /c/EC/SourceCode/my-cv-website/.claude/commands/sdlc-build.md)",
+      "Bash(cp /c/EC/SourceCode/my-cv-website/.claude/skills/sdlc-deploy.md /c/EC/SourceCode/my-cv-website/.claude/commands/sdlc-deploy.md)",
+      "Bash(npx vitest:*)",
+      "Bash(find /c/EC/SourceCode/my-cv-website/e2e -name *.spec.ts)",
+      "Bash(npm run:*)",
+      "Bash(npx playwright:*)",
+      "Bash(npx tsc:*)",
+      "Bash(xargs -I{} echo \"Total error lines: {}\")",
+      "Bash(echo \"EXIT: $?\")",
+      "Bash(timeout 5 npx vite preview --port 4173)",
+      "Bash(git -C /c/EC/SourceCode/my-cv-website log -1 --format=\"%H\")",
+      "Bash(git -C /c/EC/SourceCode/my-cv-website branch --show-current)",
+      "Bash(git -C /c/EC/SourceCode/my-cv-website remote -v)",
+      "Bash(git -C /c/EC/SourceCode/my-cv-website status)",
+      "Bash(git:*)"
+    ]
+  }
+}
